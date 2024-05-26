@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Sidebar Menu | CodingLab</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles/general.css"/>
+    <link rel="stylesheet" href="styles/sidebar.css"/>
+    <link rel="stylesheet" href="styles/menu-bar.css"/>
+    <link rel="stylesheet" href="styles/nav-links.css"/>
+    <link rel="stylesheet" href="styles/section.css"/>
+     <!-- ==== Iconsout CSS ==== -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Boxicons CDN Link -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="sidebar close">  
+        <header>
+            <div class="image-text">
+              <span class="image">
+                <img src="logo.jpg" alt="logo" />
+              </span>
+    
+              <div class="text header-text">
+                <span class="name">CodingLab</span>
+                <span class="profession">Web Developer</span>
+              </div>
+            </div>
+            <i class="bx bx-chevron-right toggle"></i>
+          </header>
+
+          <div class="menu-bar">
+            <div class="menu">
+              <li class="search-box">
+                <i class="bx bx-search icon"></i>
+                <input type="text" placeholder="Search..." />
+              </li>
+              <ul class="nav-links">
+                <li>
+                    <a href="#">
+                        <i class="bx bx-home-alt icon"></i>
+                        <span class="link_name">Dashboard</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Dashboard</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="icon-link">
+                        <a href="#">
+                            <i class="bx bx-collection icon"></i>
+                            <span class="link_name">Category</span>
+                        </a>
+                        <i class="bx bxs-chevron-down icon arrow"></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Category</a></li>
+    
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JAVASCRIPT</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="icon-link">
+                        <a href="#">
+                            <i class="bx bx-book icon"></i>
+                            <span class="link_name">Posts</span>
+                        </a>
+                        <i class="bx bxs-chevron-down icon arrow"></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Posts</a></li>
+    
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Login form</a></li>
+                        <li><a href="#">Card Design</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-bar-chart-alt-2 icon"></i>
+                        <span class="link_name">Revenue</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Revenue</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-bell icon"></i>
+                        <span class="link_name">Notifications</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Notifications</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="icon-link">
+                        <a href="#">
+                            <i class="bx bx-plug icon"></i>
+                            <span class="link_name">Plugins</span>
+                        </a>
+                        <i class="bx bxs-chevron-down icon arrow"></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Plugins</a></li>
+    
+                        <li><a href="#">UI Face</a></li>
+                        <li><a href="#">Pigments</a></li>
+                        <li><a href="#">Box Icons</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-pie-chart-alt icon"></i>
+                        <span class="link_name">Analytics</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Analytics</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-heart icon"></i>
+                        <span class="link_name">Likes</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Likes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-wallet icon"></i>
+                        <span class="link_name">Wallets</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Wallets</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div class="bottom-content">
+                          
+                <li class="mode">
+                  <div class="moon-sun">
+                    <i class="bx bx-moon icon moon"></i>
+                    <i class="bx bx-sun icon sun"></i>
+                  </div>
+                  <span class="mode-text text link_name">Dark Mode</span>
+      
+                <div class="toggle-switch">
+                  <span class="switch"></span>
+                </div>
+      
+                </li>
+
+                <li class="logOut">
+                    <a href="#">
+                      <i class="bx bx-log-out icon logOut"></i>
+                      <span class="text nav-text link_name logOut">LogOut</span>
+                    </a>
+                </li>
+
+            </div>
+          </div>
+    </div>
+    <section class="home">
+
+            <div class="container">
+                <div class="forms">
+                    <div class="form login">
+                        <span class="title">Login Form</span>
+        
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your email" required>
+                                <i class="uil uil-envelope icon"></i>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" class="password" placeholder="Enter your password" required>
+                                <i class="uil uil-lock icon"></i>
+                                <i class="uil uil-eye-slash showHidePw"></i>
+                            </div>
+        
+                            <div class="checkbox-text">
+                                <div class="checkbox-content">
+                                   <input type="checkbox" id="logCheck">
+                                   <label for="logCheck" class="text">Remember me</label> 
+                                </div>
+        
+                                <a href="#" class="text">Forgot password?</a>
+                            </div>
+        
+                            <div class="input-field button">
+                                <input type="button" value="Login Now">
+                            </div>
+                        </form>
+        
+                        <div class="login-signup">
+                            <span class="text">Not a member?
+                                <a href="#" class="text signup-link">Signup now</a>
+                            </span>
+                        </div>
+                    </div>
+        
+                    <!-- Registration Form -->
+                    <div class="form signup">
+                        <span class="title">Registration</span>
+        
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your name" required>
+                                <i class="uil uil-user"></i>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your email" required>
+                                <i class="uil uil-envelope icon"></i>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" class="password" placeholder="Create a password" required>
+                                <i class="uil uil-lock icon"></i>
+                            </div>
+                            <div class="input-field">
+                                <input type="password"  class="password" placeholder="Confirm your password" required>
+                                <i class="uil uil-lock icon"></i>
+                                <i class="uil uil-eye-slash showHidePw"></i>
+                            </div>
+        
+                            <div class="checkbox-text">
+                                <div class="checkbox-content">
+                                   <input type="checkbox" id="signCheck">
+                                   <label for="signCheck" class="text">Remember me</label> 
+                                </div>
+        
+                                <a href="#" class="text">Forgot password?</a>
+                            </div>
+        
+                            <div class="input-field button">
+                                <input type="button" value="Login Now">
+                            </div>
+                        </form>
+        
+                        <div class="login-signup">
+                            <span class="text">Already a member?
+                                <a href="#" class="text login-link">Login now</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    </section>  
+    <script src="script.js"></script>
+</body>
+</html>
